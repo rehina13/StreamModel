@@ -6,10 +6,10 @@ namespace MusicPlaylist
 {
     public class ArtistSong
     {
-        public static Dictionary<string, string[]> InitializeArtistSongs()
+        public static <string, string[]> InitializeArtistSongs()
         {
 
-            return new Dictionary<string, string[]>
+            return new <string, string[]>
             {
                 { "Coldplay", new string[] {  "Sparks", "Fix You", "Paradise", "Yellow" } },
                 { "Taylor Swift", new string[] { "Slut!", "Sparks Fly", "Blank Space", "You Belong With Me", "All too Well" } },

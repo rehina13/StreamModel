@@ -1,7 +1,7 @@
 ﻿using System;
-using MusicPlaylist;
+using MusicPlaylistDL;
 using StreamModel;
-namespace PlaylistSong
+namespace PlaylistSongBL
 {
     public class Program
     {
